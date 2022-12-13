@@ -24,3 +24,21 @@
     justify-content: center;
     border: 4mm ridge rgba(23, 24, 18, 0.6);
 }
+button:focus{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #eb5905
+}
+button:hover{
+    background-color:#df063c;
+      transition: 0.9s;
+}
+#menu.list{
+    background-color: blue;
+}
+span{
+    color: #df063c;
+}
+##movieDetail.detail{
+justify-content: center;
+}
