@@ -1,3 +1,26 @@
 *{
-    background-color: rgb(68, 62, 68);
+    background-color: bisque;
+}
+
+#head{
+    position: center;
+    display: flex;
+    justify-content: center;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+}
+#movieDetail{
+    display: flex;
+    justify-content: center;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+}
+#pic{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    border: dashed rgb(7, 7, 7);
+}
+#movieDetail.info{
+    display: flex;
+    justify-content: center;
+    border: 4mm ridge rgba(23, 24, 18, 0.6);
 }
